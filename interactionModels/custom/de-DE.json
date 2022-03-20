@@ -1,0 +1,75 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "mein radio",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "MukeIntent",
+          "slots": [],
+          "samples": [
+            "mein radio",
+            "starte mein radio",
+            "start mein radio",
+            "mein radio start"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "TitelIntent",
+          "slots": [],
+          "samples": [
+            "was",
+            "titel",
+            "was spielst du da",
+            "was hör ich gerade",
+            "wie lautet der aktuelle titel",
+            "nach dem titel"
+          ]
+        },
+        {
+          "name": "ArtistIntent",
+          "slots": [],
+          "samples": [
+            "Wer",
+            "Artist",
+            "Interpret"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "9"
+}
